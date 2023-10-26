@@ -1,0 +1,23 @@
+Settings:
+  admin: "2821396723"
+  # 是否开启自动同意
+  AutoAgreeFun: true
+  # 启动自动审查的群聊列表
+  GroupList:
+    - "00000000"
+    - "2821396723"
+  # 如果包含下列内容就自动同意
+  # 验证消息分类
+  VerificationMessageCategories:
+    - name: "论坛类"
+      keywords:
+        - "mcbbs"
+        - "bbs"
+    - name: "App类"
+      keywords:
+        - "九域"
+  # 自动拒绝功能
+  AutoRefuseFun: true
+  AutoRefuseMessage: "验证失败，无法加入群聊"
+  AutoRefuseMessagePrivate: "用户{qq}验证消息不匹配 请重新申请群聊\n{message}"
+  StatisticsVerificationInformationContent: true

@@ -1,0 +1,10 @@
+name: AutoReview
+version: '${project.version}'
+main: ltd.dreamcraft.www.autoreview.AutoReview
+api-version: '1.13'
+depend: [ AmazingBot ]
+authors: [ haishen668 ]
+description: 一款自动通过验证的插件
+commands:
+  autoreview:
+    aliases: [ ae ]
